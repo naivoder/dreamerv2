@@ -1,1 +1,57 @@
-  
+  # Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+.eggs-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# profiling data
+.prof
+
+# Logs and local files
+*.log
+*.env
+.env.*
+!.env.example
+
+# macOS files
+.DS_Store
+
+# Visual Studio Code settings
+.vscode/
+
+# PyCharm files
+.idea/
+
+# Other editors
+*.swp
+*.swo
